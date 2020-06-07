@@ -1,8 +1,11 @@
 # EmployeeServ
 
  Steps needed to run the Spring boot application
+ 
  git@github.com:saaske/EmployeeServ.git
+ 
  cd EmployeeServ
+ 
  mvn spring-boot:run
  
  insert sample data into db
@@ -25,4 +28,5 @@ insert into emp_hr (employee_employee_id, age,date_of_Joining,salary, department
 
 
 After inserting data into db
+
 u can access the data by using this endpoint http://localhost:8080/v1/account/employees?size=1 (assuming you are running in local machine)
