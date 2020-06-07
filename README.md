@@ -27,6 +27,4 @@ insert into emp_hr (employee_employee_id, age,date_of_Joining,salary, department
 ("E1019",  36, "2003-04-12",  "Rs.12,00,000",0)
 
 
-After inserting data into db
-
-u can access the data by using this endpoint http://localhost:8080/v1/account/employees?size=1 (assuming you are running in local machine)
+After inserting data into db you can access the data by using this endpoint http://localhost:8080/v1/account/employees?size=1 (assuming you are running in local machine)
